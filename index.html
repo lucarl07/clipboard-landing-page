@@ -2,83 +2,147 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Clipboard landing page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { display: none; }
+    .attribution p { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
+  <main>
+    <section class="hero">
+      <img src="./images/logo.svg" alt="Clipboard logo" class="logo-large">
+      <h1 class="h-large">A history of everything you copy</h1>
+      <p class="p-large">
+        Clipboard allows you to track and organize everything you copy. 
+        Instantly access your clipboard on all your devices.
+      </p>
+      <div class="btn-wrapper">
+        <button class="btn-A">Download for iOS</button>
+        <button class="btn-B">Download for Mac</button>
+      </div>
+    </section>
+    
+    <section class="about-snippets">
+      <section class="wrapper-start">
+        <h2 class="h-medium">Keep track of your snippets</h2>
+        <p class="p-medium">
+          Clipboard instantly stores any item you copy in the cloud, 
+          meaning you can access your snippets immediately on all your 
+          devices. Our Mac and iOS apps will help you organize everything.
+        </p>
+      </section>
+      <section class="wrapper-end">
+        <img src="./images/image-computer.png" alt="Image of a computer">
+        <div class="wrapper-end">
+          <section>
+            <h3 class="h-small">Quick Search</h3>
+            <p class="p-small">Easily search your snippets by content, category, web address, application, and more.</p>
+          </section>
+          <section>
+            <h3 class="h-small">iCloud Sync</h3>
+            <p class="p-small">
+              Instantly saves and syncs snippets across all your devices.
+            </p>
+          </section>
+          <section>
+            <h3 class="h-small">Complete History</h3>
+            <p class="p-small">Retrieve any snippets from the first moment you started using the app.</p>
+          </section>
+        </div>
+      </section>
+    </section>
 
-  A history of everything you copy
+    <section class="clipboard-access">
+      <h2 class="h-medium">Access Clipboard anywhere</h2>
+      <p class="p-medium">
+        Whether you’re on the go, or at your computer, you can access all your Clipboard 
+        snippets in a few simple clicks.
+      </p>
+    </section>
 
-  Clipboard allows you to track and organize everything you 
-  copy. Instantly access your clipboard on all your devices.
+    <section class="productivity">
+      <div class="wrapper-start">
+        <h2 class="h-medium">
+          Supercharge your workflow
+        </h2>
+        <p class="p-medium">
+          We’ve got the tools to boost your productivity.
+        </p>
+      </div>
+      <div class="wrapper-end">
+        <section class="blacklists">
+          <img src="./images/icon-blacklist.svg" alt="Blacklist icon">
+          <h3 class="h-small">Create blacklists</h3>
+          <p class="p-small">
+            Ensure sensitive information never makes its way to your clipboard by excluding certain sources.
+          </p>
+        </section>
+        <section class="text-snippets">
+          <img src="./images/icon-text.svg" alt="Text icon">
+          <h3 class="h-small">Plain text snippets</h3>
+          <p class="p-small">
+            Remove unwanted formatting from copied text for a consistent look.
+          </p>
+        </section>
+        <section class="sneak-preview">
+          <img src="./images/icon-preview.svg" alt="Sneak preview icon">
+          <h3 class="h-small">Sneak preview</h3>
+          <p class="p-small">
+            Quick preview of all snippets on your Clipboard for easy access.
+          </p>
+        </section>
+      </div>
+    </section>
 
-  Download for iOS
-  Download for Mac
+    <section class="customers">
+      <img src="./images/logo-google.png" alt="Google's logo">
+      <img src="./images/logo-ibm.png" alt="IBM's logo">
+      <img src="./images/logo-microsoft.png" alt="Microsoft's logo">
+      <img src="./images/logo-hp.png" alt="Hewlett Packard Enterprise's logo">
+      <img src="./images/logo-vector-graphics.png" alt="Vector Graphics's logo">
+    </section>
 
-  Keep track of your snippets
-
-  Clipboard instantly stores any item you copy in the cloud, 
-  meaning you can access your snippets immediately on all your 
-  devices. Our Mac and iOS apps will help you organize everything.
-
-  Quick Search
-
-  Easily search your snippets by content, category, web address, application, and more.
-
-  iCloud Sync
-
-  Instantly saves and syncs snippets across all your devices.
-
-  Complete History
-
-  Retrieve any snippets from the first moment you started using the app.
-
-  Access Clipboard anywhere
-
-  Whether you’re on the go, or at your computer, you can access all your Clipboard 
-  snippets in a few simple clicks.
-
-  Supercharge your workflow
-
-  We’ve got the tools to boost your productivity.
-
-  Create blacklists
-
-  Ensure sensitive information never makes its way to your clipboard by excluding certain sources.
-
-  Plain text snippets
-
-  Remove unwanted formatting from copied text for a consistent look.
-
-  Sneak preview
-
-  Quick preview of all snippets on your Clipboard for easy access.
-
-  Clipboard for iOS and Mac OS
-
-  Available for free on the App Store. Download for Mac or iOS, sync with iCloud 
-  and you’re ready to start adding to your clipboard.
-
-  Download for iOS
-  Download for Mac
-
-  FAQs
-  Contact Us
-  Privacy Policy
-  Press Kit
-  Install Guide
-  
+    <section class="downloads">
+      <h2 class="h-medium">Clipboard for iOS and Mac OS</h2>
+      <p class="p-medium">
+        Available for free on the App Store. Download for Mac or iOS, sync with iCloud and 
+        you’re ready to start adding to your clipboard.
+      </p>
+      <div class="btn-wrapper">
+        <button class="btn-A">Download for iOS</button>
+        <button class="btn-B">Download for Mac</button>
+      </div>
+    </section>
+  </main>
   <footer>
-    <p class="attribution">
+    <div class="wrapper-start">
+      <img src="./images/logo.svg" alt="Clipboard logo" class="logo-small">
+      <nav class="pages">
+        <a href="#">FAQs</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Press Kit</a>
+        <a href="#">Install Guide</a>
+      </nav>
+    </div>
+    <div class="social-media">
+      <a href="#">
+        <img src="./images/icon-facebook.svg" alt="Our Facebook">
+      </a>
+      <a href="#">
+        <img src="./images/icon-twitter.svg" alt="Our Twitter">
+      </a>
+      <a href="#">
+        <img src="./images/icon-instagram.svg" alt="Our Instagram">
+      </a>
+    </div>
+  </footer>
+  <footer class="attribution">
+    <p>
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Your Name Here</a>.
     </p>
