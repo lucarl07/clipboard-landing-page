@@ -24,3 +24,15 @@
   font-weight: 600;
   font-style: normal;
 }
+
+body {
+  background-image: url(./images/bg-header-mobile.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 1024px) {
+  body {
+    background-image: url(./images/bg-header-desktop.png);
+  }
+}
