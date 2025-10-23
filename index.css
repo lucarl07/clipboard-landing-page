@@ -1,0 +1,26 @@
+:root {
+  /* Colors */
+  --color-strong-cyan: hsl(171, 66%, 44%);
+  --color-light-blue: hsl(233, 100%, 69%);
+  --color-dark-grayish-blue: hsl(210, 10%, 33%);
+  --color-grayish-blue: hsl(201, 11%, 66%);
+
+  /* Font Sizes */
+  --font-size-heading: 2.5rem;
+  --font-size-subheading: 1.5rem;
+  --font-size-body: 1.125rem;
+}
+
+@font-face {
+  font-family: "Bai Jamjuree Regular";
+  src: url(./fonts/BaiJamjuree-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bai Jamjuree Semi-Bold";
+  src: url(./fonts/BaiJamjuree-SemiBold.ttf);
+  font-weight: 600;
+  font-style: normal;
+}
