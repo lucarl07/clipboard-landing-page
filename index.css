@@ -60,23 +60,23 @@ img {
 }
 
 footer:not(.attribution) {
-  gap: 2.25rem;
-  padding: 2.25rem;
+  gap: 2.75rem;
+  padding: 3rem 2.5rem;
   background-color: hsl(from var(--color-grayish-blue) h s l / 0.15);
 }
 footer .wrapper-start {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2rem;
+  gap: 2.5rem;
 
   img {
-    width: 40%;
+    width: 50%;
   }
   nav {
     display: flex;
     flex-direction: column;
-    gap: 1.125rem;
+    gap: 1.5rem;
 
     a {
       color: var(--color-dark-grayish-blue);
