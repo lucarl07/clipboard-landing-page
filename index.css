@@ -6,9 +6,9 @@
   --color-grayish-blue: hsl(201, 11%, 66%);
 
   /* Font Sizes */
-  --font-size-heading: 2.5rem;
-  --font-size-subheading: 1.5rem;
-  --font-size-body: 1.125rem;
+  --font-size-p-large: 1.125rem;
+  --font-size-p-medium: 1rem;
+  --font-size-p-small: 1rem;
 }
 
 @font-face {
@@ -29,13 +29,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Bai Jamjuree Regular', sans-serif;
 }
 
 body {
   background-image: url(./images/bg-header-mobile.png);
   background-size: contain;
   background-repeat: no-repeat;
-  font-family: 'Bai Jamjuree Regular', sans-serif;
 }
 
 h1, h2, h3 {
@@ -45,7 +45,7 @@ h1, h2, h3 {
 
 p {
   color: var(--color-grayish-blue);
-  font-size: var(--font-size-body);
+  font-size: var(--font-size-p-medium);
 }
 
 main, footer {
