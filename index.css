@@ -104,4 +104,20 @@ footer .social-media {
   body {
     background-image: url(./images/bg-header-desktop.png);
   }
+
+  .text-large {
+    & p {
+      font-size: var(--font-size-p-large);
+    }
+  }
+  .text-medium {
+    & p {
+      font-size: var(--font-size-p-medium);
+    }
+  }
+  .text-small {
+    & p {
+      font-size: var(--font-size-p-small);
+    }
+  }
 }
