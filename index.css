@@ -6,6 +6,7 @@
   --color-grayish-blue: hsl(201, 11%, 66%);
 
   /* Font Sizes */
+  --font-size-hx-mobile: 2rem;
   --font-size-p-large: 1.125rem;
   --font-size-p-medium: 1rem;
   --font-size-p-small: 1rem;
@@ -41,10 +42,12 @@ body {
 h1, h2, h3 {
   color: var(--color-dark-grayish-blue);
   font-family: 'Bai Jamjuree Semi-Bold', sans-serif;
+  font-size: var(--font-size-hx-mobile);
 }
 
 p {
   color: var(--color-grayish-blue);
+  line-height: 1.5;
   font-size: var(--font-size-p-medium);
 }
 
@@ -98,6 +101,13 @@ img {
     margin-block-end: 2.5rem;
     gap: 1rem;
   }
+}
+
+.customers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
 }
 
 footer:not(.attribution) {
