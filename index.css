@@ -6,7 +6,9 @@
   --color-grayish-blue: hsl(201, 11%, 66%);
 
   /* Font Sizes */
-  --font-size-hx-mobile: 2rem;
+  --font-size-h1-h2: 2rem;
+  --font-size-h3: 1.5rem;
+
   --font-size-p-large: 1.125rem;
   --font-size-p-medium: 1rem;
   --font-size-p-small: 1rem;
@@ -42,12 +44,17 @@ body {
 h1, h2, h3 {
   color: var(--color-dark-grayish-blue);
   font-family: 'Bai Jamjuree Semi-Bold', sans-serif;
-  font-size: var(--font-size-hx-mobile);
+}
+h1, h2 {
+  font-size: var(--font-size-h1-h2);
+}
+h3 {
+  font-size: var(--font-size-h3);
 }
 
 p {
   color: var(--color-grayish-blue);
-  line-height: 1.5;
+  line-height: 1.75;
   font-size: var(--font-size-p-medium);
 }
 
@@ -95,11 +102,31 @@ img {
   .logo-large {
     margin-block-end: 3.5rem;
   }
+}
+.hero, .tracking-snippets, .clipboard-access, .productivity, .downloads {
   .wrapper-start {
     display: flex;
     flex-direction: column;
     margin-block-end: 2.5rem;
     gap: 1rem;
+  }
+  .wrapper-end {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+  }
+}
+
+.tracking-snippets, .productivity {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+
+  .wrapper-start {
+    margin-block-end: 0;
+  }
+  .productivity-tool h3 {
+    margin-block: 2rem 1rem;
   }
 }
 
