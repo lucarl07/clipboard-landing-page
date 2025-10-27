@@ -68,6 +68,20 @@ main, footer {
 main {
   margin: 7.5rem 1.875rem;
   gap: 10.5rem;
+
+  section {
+    .wrapper-start {
+      display: flex;
+      flex-direction: column;
+      margin-block-end: 2.5rem;
+      gap: 1rem;
+    }
+    .wrapper-end {
+      display: flex;
+      flex-direction: column;
+      gap: 3.5rem;
+    }
+  }
 }
 
 img {
@@ -101,19 +115,6 @@ img {
 .hero {
   .logo-large {
     margin-block-end: 3.5rem;
-  }
-}
-.hero, .tracking-snippets, .clipboard-access, .productivity, .downloads {
-  .wrapper-start {
-    display: flex;
-    flex-direction: column;
-    margin-block-end: 2.5rem;
-    gap: 1rem;
-  }
-  .wrapper-end {
-    display: flex;
-    flex-direction: column;
-    gap: 3.5rem;
   }
 }
 
