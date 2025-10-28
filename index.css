@@ -156,42 +156,41 @@ footer:not(.attribution) {
   gap: 2.75rem;
   padding: 3rem 2.5rem;
   background-color: hsl(from var(--color-grayish-blue) h s l / 0.15);
-}
-footer .wrapper-start {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2.5rem;
 
-  img {
-    width: 50%;
-  }
-  nav {
+  .wrapper-start {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    align-items: center;
+    gap: 2.5rem;
 
-    a {
-      color: var(--color-dark-grayish-blue);
-      text-decoration: none;
+    img {
+      width: 50%;
     }
-    a:hover {
-      color: var(--color-strong-green);
+    .pages {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+
+      a {
+        color: var(--color-dark-grayish-blue);
+        text-decoration: none;
+      }
+      a:hover {
+        color: var(--color-strong-green);
+      }
+    }
+  }
+  .social-media {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+
+    svg:hover > path {
+      fill: var(--color-strong-green);
     }
   }
 } 
-footer .social-media {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 50%;
-
-  img:active {
-    /* (T.B.D)
-    * Because beside filters, there is no way of 
-    * changing colors of SVGs loaded in <img> tags. */
-  }
-}
 
 @media (min-width: 1024px) {
   body {
